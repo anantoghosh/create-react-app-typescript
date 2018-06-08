@@ -5,5 +5,24 @@
       "config/**/*.js",
       "node_modules/**/*.ts"
     ]
+  },
+  "defaultSeverity": "warning",
+  "rules": {
+    "switch-default": true,
+    "triple-equals": true,
+    "new-parens": true,
+    "no-arg": true,
+    "no-conditional-assignment": true,
+    "no-eval": true,
+    "no-switch-case-fall-through": true,
+    "label-position": true,
+    "no-construct": true,
+    "no-duplicate-variable": true,
+    "no-invalid-template-strings": true,
+    "no-string-throw": true,
+    "no-unused-expression": [true, "allow-tagged-template"],
+    "no-unused-variable": true,
+    "no-use-before-declare": true,
+    "use-isnan": true
   }
 }
